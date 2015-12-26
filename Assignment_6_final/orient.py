@@ -251,7 +251,7 @@ def knn(k_hidden_count_best):
 
 
     def knn_basic(k_hidden_count_best):
-        traindata, testdata, traindata_beforepreprocessing, testdata_beforepreprocessing, confusion_matrix = [], [], [], [], []
+        traindata, testdata, traindata_beforepreprocessing, testdata_beforepreprocessing, confusion_matrix = [], [], [], [], [[0,0,0,0], [0,0,0,0],[0,0,0,0], [0,0,0,0]]
 
         dataprocessing(train_file_name, traindata)
         dataprocessing(test_file_name, testdata)
@@ -540,4 +540,4 @@ if algorithm == 'knn':
 if algorithm == 'nnet':
     NN(int(k_hidden_count_best))
 if algorithm == 'best':
-    NN_Best(int(k_hidden_count_best))
+    NN_Best(30)
