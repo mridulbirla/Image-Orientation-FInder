@@ -1,4 +1,4 @@
-# image-orientation-classifier
+# Image Orientation Classifier
 We have implemented a fully-connected feed-forward network to classify image orientation with the backpropagation algorithm to train the network using gradient descent. Provided with a dataset of images from the Flickr photo sharing website.
 Contributers :  1. Pranav Pande (pmpande)
                 2. Nishant Shah (nishshah)
