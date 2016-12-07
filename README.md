@@ -1,8 +1,6 @@
 # Image Orientation Classifier
 We have implemented a fully-connected feed-forward network to classify image orientation with the backpropagation algorithm to train the network using gradient descent. Provided with a dataset of images from the Flickr photo sharing website.
-Contributers :  1. Pranav Pande (pmpande)
-                2. Nishant Shah (nishshah)
- 
+
 We have implemented KNN and ANN in seperate files and calling their appropriate methods in orient.py file.
  
 Repository also includes trained weights and incorrect outputs from ANN using best configuration.
